@@ -79,7 +79,7 @@ const Home = () => {
 
 			<div>
 				<span>
-					<p className="tittle">FEATURED BRANDS</p>
+					<p className="tittle">FEATURED UPCOMING BRANDS</p>
 				</span>
 
 				<div className="brands">
