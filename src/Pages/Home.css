@@ -1,0 +1,28 @@
+.carousel-img {
+	height: 70vh;
+	width: 100%;
+	/* object-fit: cover; */
+	background-size: cover;
+	/* margin: 10px; */
+	cursor: pointer;
+}
+.home {
+	margin: 30px 60px 20px;
+	/* width: ; */
+	/* margin-left: 50px; */
+}
+
+.discount-img {
+	width: 90%;
+	margin: 10px 60px 40px;
+}
+.tittle {
+	margin: 0px 0px 20px;
+	font-size: 30px;
+	text-align: center;
+	font-weight: 700;
+}
+.brands {
+	
+	margin: 0px 60px 10px;
+}

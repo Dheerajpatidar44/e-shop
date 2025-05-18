@@ -1,0 +1,91 @@
+.fashion-slider {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+.fashion-slide {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.fashion-slider-title {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fashion-slider-title-text {
+	font-size: 4rem;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/* Slide image */
+.fashion-slider-scale {
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 60%;
+	transition: transform 0.5s ease-in-out;
+	z-index: 1;
+}
+
+.fashion-slider-scale img {
+	width: 100%;
+	border-radius: 20px;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.swiper-slide-active .fashion-slider-scale {
+	transform: translateX(-50%) scale(1.1);
+}
+
+/* Navigation buttons */
+.fashion-slider-button {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 10;
+	cursor: pointer;
+}
+
+.fashion-slider-button-prev {
+	left: 20px;
+}
+
+.fashion-slider-button-next {
+	right: 20px;
+}
+
+/* ✅ Mobile responsiveness */
+@media (max-width: 768px) {
+	.fashion-slider-title-text {
+		font-size: 2.5rem;
+	}
+
+	.fashion-slider-scale {
+		width: 85%;
+	}
+
+	.fashion-slider-button {
+		width: 40px;
+	}
+
+	.fashion-slider-button svg {
+		width: 40px;
+		height: 40px;
+	}
+}

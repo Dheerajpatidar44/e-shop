@@ -1,0 +1,76 @@
+.wishlist-container {
+	max-width: 1000px;
+	margin: auto;
+	padding: 20px;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wishlist-item {
+	position: relative;
+	transition: all 0.3s ease;
+	padding: 10px;
+	border: none;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+
+.wishlist-item:hover {
+	transform: scale(1.02);
+	box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Image Styling */
+.wishlist-img {
+	height: 200px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+/* Remove (X) Icon */
+.remove-icon {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 18px;
+	color: #d9534f;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.remove-icon:hover {
+	color: #c9302c;
+}
+
+/* Add To Bag Button */
+.add-to-bag-btn {
+	width: 100%;
+	margin-top: 10px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	transition: 0.3s;
+}
+
+.add-to-bag-btn:hover {
+	background-color: #333;
+}
+
+/* Modal Styling */
+.modal-content {
+	border-radius: 12px;
+	padding: 20px;
+}
+
+.modal-buttons {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+}
+
+.yes-btn,
+.no-btn {
+	width: 120px;
+	font-size: 16px;
+}

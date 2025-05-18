@@ -1,0 +1,30 @@
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  .auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .auth-card {
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: white;
+  }
+  
+  .auth-tabs {
+    margin-bottom: 15px;
+  }
+  
+  .btn-primary, .btn-success {
+    width: 100%;
+  }
+  
